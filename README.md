@@ -28,7 +28,7 @@ The script is gonna generate a token, that is gonna be stored under the same fol
 and used for all next times.
 - **3.** Check your calendar, and make sure that you have configured all your meetings
 in a proper way. To fetch all your meetings properly you have to make sure that 
-you've confirmed your attendance. Check the example on the [screenshot]. Your meetings
+you've confirmed your attendance. Check the example on the [screenshot](https://github.com/TolikSyedin/jira-tool/blob/master/Screen%20Shot%202019-08-27%20at%2020.45.40.png). Your meetings
 would be displayed in two cases - if you accepted if (No, and Maybe gonna be skipped),
 or if you organized it yourself, as a blocker for some task or a meeting (should
 be not longer then one day, f.e. National Holiday, or Vacation). It this cases 
