@@ -1,0 +1,21 @@
+{
+  "name": "jira-automation-tool",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "This is a tool related to fulfill our jira timestamps automatically, by fetching the meeting data from the google API, and logging into the jira via nightmare.js. It is used for transition of all the meetings that you've visited during the month.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node  --experimental-modules  app.mjs",
+    "watch": "nodemon --experimental-modules ./app.mjs localhost 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^42.0.0",
+    "moment": "^2.24.0",
+    "nightmare": "^3.0.2",
+    "node": "^12.8.0",
+    "nodemon": "^1.19.1",
+    "readline-sync": "^1.4.10"
+  }
+}
